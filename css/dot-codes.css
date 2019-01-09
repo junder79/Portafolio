@@ -1,0 +1,8 @@
+
+.icon-user:before { content: '\e800'; } /* '' */
+.icon-mail:before { content: '\e801'; } /* '' */
+.icon-briefcase:before { content: '\e802'; } /* '' */
+.icon-dot-circled:before { content: '\f192'; } /* '' */
+.icon-twitter-circled:before { content: '\f30a'; } /* '' */
+.icon-facebook-circled:before { content: '\f30d'; } /* '' */
+.icon-instagram:before { content: '\f32d'; } /* '' */

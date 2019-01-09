@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+	<title>Portafolio</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700,900" rel="stylesheet">
+	<link rel="stylesheet"  href="css/fontello.css">
+	<link rel="stylesheet"  href="css/estilos.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<!--Barra logo + menu 
+			 ROUDED TOP : ESQUINAS REDONDEADAS-->
+			<div class="row nav rounded-top align-items-stretch justify-content-between">
+				<!--logo-->
+				<div class="col-md-12 col-lg-auto logo d-flex align-items-center justify-content-center justify-content-lg-start">
+					<!--align-items-center los order al centro de forma vertical-->
+					<h2>Nicolas Cisterna</h2>
+					<span class="icono icon-dot-circled"></span>
+					<p>Desarrollador Web</p>	
+				</div>
+				<!-- align-items-stretch ocupara todo el alto del nav -->
+				<nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+					<a href="#" class="c-1 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<!--flex column para que sepa que vendra un texto y una imagen-->
+							<span>Portafolio</span>
+							<i class="icono icon-briefcase"></i>
+						</div>
+					</a>
+					<a href="#" class="c-2 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<!--flex column para que sepa que vendra un texto y una imagen-->
+							<span>Acerca de</span>
+							<i class="icono icon-user"></i>
+						</div>
+					</a>
+					<a href="#" class="c-3 d-flex align-items-center ">
+						<div class="d-flex flex-column text-center">
+							<!--flex column para que sepa que vendra un texto y una imagen-->
+							<span>Contacto</span>
+							<i class="icono icon-mail"></i>
+						</div>
+					</a>
+				</nav>
+			</div>
+			<!--slider-->
+			<div class="row slider">
+				<div class="col">
+					<div class="carousel slide" id="slider" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#slider" data-slide-to="0" class="active"></li>
+							<li data-target="#slider" data-slide-to="1"></li>
+							<li data-target="#slider" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="img/slide1.jpg" alt="Slide 1" class="d-block img-fluid">
+							</div>
+							<div class="carousel-item">
+								<img src="img/slide2.jpg" alt="Slide 3" class="d-block img-fluid">
+							</div>
+							<div class="carousel-item">
+								<img src="img/slide3.jpg" alt="Slide 3" class="d-block img-fluid">
+							</div>
+						</div>
+						<a href="#slider" class="carousel-control-prev" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Anterior</span>
+						</a>
+						<a href="#slider" class="carousel-control-next" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Siguiente</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<!--seccion portafolio-->
+			<div class="row portafolio">
+				<div class="col">
+					<h2 class="titulo">Portafolio</h2>
+					<div class="row galeria justify-content-center">
+						<div class=" contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal" >
+								<img src="img/img-1.jpg" class="img-fluid imagen" alt="">
+							</a>
+							<!--modal es el efecto que al hacer click a la imagen esta se hara zoom-->
+						</div>
+						<div class=" contenedor-imagen col-12 col-lg-8">
+							<a href="#" data-toggle="modal" data-target="#modal" >
+								<img src="https://www.netpremacy.com/wp-content/uploads/2016/11/clouds.png" class="img-fluid imagen" alt="">
+							</a>
+							<!--modal es el efecto que al hacer click a la imagen esta se hara zoom-->
+						</div>
+						<div class=" contenedor-imagen col-12 col-lg-8">
+							<a href="#" data-toggle="modal" data-target="#modal" >
+								<img src="img/img-3.jpg" class="img-fluid imagen" alt="">
+							</a>
+							<!--modal es el efecto que al hacer click a la imagen esta se hara zoom-->
+						</div>
+						<div class=" contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal" >
+								<img src="https://developers.google.com/web/progressive-web-apps/images/pwa-lighthouse.png" class="img-fluid imagen" alt="">
+							</a>
+							<!--modal es el efecto que al hacer click a la imagen esta se hara zoom-->
+						</div>
+						<div class=" contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal" >
+								<img src="https://i.pinimg.com/originals/f3/c7/8b/f3c78b129b26cdc6c5acd045e951f650.png" class="img-fluid imagen" alt="">
+							</a>
+							<!--modal es el efecto que al hacer click a la imagen esta se hara zoom-->
+						</div>
+						<div class=" contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal" >
+								<img src="img/img-6.jpg" class="img-fluid imagen" alt="">
+							</a>
+							<!--modal es el efecto que al hacer click a la imagen esta se hara zoom-->
+						</div>
+						<div class=" contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal" >
+								<img src="img/img-7.jpg" class="img-fluid imagen" alt="">
+							</a>
+							<!--modal es el efecto que al hacer click a la imagen esta se hara zoom-->
+						</div>
+						<div class="modal fade" id="modal">
+							<div class="modal-dialog d-flex justify-content-center align-items-center">
+								<div class="modal-content">
+									<img src="" id="imagen-modal" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row acerca-de align-items-center">
+				<div class="col-12 col-lg-4 foto">
+					<img src="img/foto22.jpg" class="rounded-circle" img-fluid alt="">
+					<p class="nombre">Nicolas Cisterna</p>
+				</div>
+				<div class="col-12 col-lg-8 info">
+					<!--barras-->
+					<h2 class="titulo">Acerca de </h2>
+					<p class="resumen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis non eros eget blandit. Curabitur sagittis, ipsum eu pharetra eleifend, ante turpis maximus tellus, in tincidunt nibh erat vel turpis. Aenean dictum neque ac ipsum congue maximus quis eget velit. Suspendisse odio ipsum, congue vel semper et.</p>
+
+					<p class="label">HTML</p>
+					<div class="progress">
+						<div class="progress-bar" style="width: 70%;">70%</div>
+					</div>
+					<p class="label">CSS</p>
+					<div class="progress">
+						<div class="progress-bar" style="width: 70%;">70%</div>
+					</div>
+					<p class="label">BOOTSTRAP 4</p>
+					<div class="progress">
+						<div class="progress-bar" style="width: 80%;">80%</div>
+					</div>
+					<p class="label">PHP</p>
+					<div class="progress">
+						<div class="progress-bar" style="width: 36%;">36%</div>
+					</div>
+				</div>
+			</div>
+			<!--seccion de contacto-->
+			<div class="row contacto justify-content-center">
+				<div class="col-12 col-lg-8">
+					<h2 class="titulo">Contacto</h2>
+					<form action="" class="formulario">
+						<div class="form-group row">
+							<div class="col-12 col-md-6">
+								<input type="text" name="nombre" id="nombre" placeholder="Nombre">
+							</div>
+							<div class="col-12 col-md-6">
+								<input type="email" name="email" id="email" placeholder="Correo">
+							</div>
+						</div>
+					<textarea name="" id="" placeholder="Mensaje"></textarea>
+					<div class="form-group d-flex justify-content-center">
+						<input type="submit"  class="boton" name="" value="Enviar">
+					</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+		
+	</main>
+	<footer>
+		<!--Redes Sociales-->
+		<div class="container">
+			<div class="row redes-sociales justify-content-center">
+				<div class="col-auto">
+					<a href="#" class="icono icon-twitter-circled twitter"></a>
+					<a href="#" class="icono icon-facebook-circled facebook"></a>
+					<a href="#" class="icono icon-instagram instagram"></a>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
